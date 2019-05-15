@@ -1,6 +1,7 @@
-.justify-between{
-    justify-content: space-between
+.is-relative {
+    position: relative !important;
 }
-.justify-around{
-    justify-content: space-around
+
+.is-absolute {
+    position: absolute !important;
 }

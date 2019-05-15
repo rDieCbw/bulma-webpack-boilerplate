@@ -1,3 +1,7 @@
 @import "../../../node_modules/bulma/bulma.sass";
 @import "../../../node_modules/bulma-helpers/bulma-helpers.sass";
-@import "./modules/helpers"
+@import "../../../node_modules/swiper/dist/css/swiper.min.css";
+@import "./modules/helpers";
+@import "./modules/swiper";
+@import "./modules/black-stripe";
+@import "./modules/banner";
