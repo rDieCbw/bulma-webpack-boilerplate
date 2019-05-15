@@ -18,7 +18,7 @@ module.exports = {
       title: "Development"
     }),
     new CopyWebpackPlugin([
-      {from:'src/assets/images',to:'images'} 
+      {from:'src/assets/images',to:'images/'} 
     ]), 
     new ExtractTextPlugin({
       filename: "css/app.css",
