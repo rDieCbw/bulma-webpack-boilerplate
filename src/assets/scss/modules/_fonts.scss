@@ -1,0 +1,56 @@
+$PATH: "/dist/assets/fonts/";
+
+@font-face {
+    font-family: blanco-bold;
+    src: url($PATH+'Blanco-Bold.ttf') format("tff");
+    font-weight:600;
+}
+@font-face {
+    font-family: blanco-bold-italic;
+    src: url($PATH+'Blanco-Bold.ttf') format("tff");
+    font-weight:600;
+    font-style: italic;
+}
+@font-face {
+    font-family: blanco-extra-bold;
+    src: url($PATH+'Blanco-ExtraBold.ttf') format("tff");
+    font-weight:900;
+}
+@font-face {
+    font-family: blanco-extra-bold-italic;
+    src: url($PATH+'Blanco-ExtraBoldItalic.ttf') format("tff");
+    font-weight:900;
+    font-style: italic;
+}
+@font-face {
+    font-family: blanco;
+    src: url($PATH+'Blanco-Regular.ttf') format("tff");
+    font-weight:300;
+}
+@font-face {
+    font-family: blanco-italic;
+    src: url($PATH+'Blanco-Italic.ttf') format("tff");
+    font-weight:300;
+    font-style: italic;
+}
+@font-face {
+    font-family: blanco-medium;
+    src: url($PATH+'Blanco-Medium.ttf') format("tff");
+    font-weight:500;
+}
+@font-face {
+    font-family: blanco-medium-italic;
+    src: url($PATH+'Blanco-MediumItalic.ttf') format("tff");
+    font-weight:500;
+    font-style: italic;
+}
+@font-face {
+    font-family: din-alternate;
+    src: url($PATH+'DINRegularAlternate.ttf') format("tff");
+    font-weight:300;
+}
+@font-face {
+    font-family: interstate;
+    src: url($PATH+'Interstate-Regular.ttf') format("tff");
+    font-weight:300;
+}
