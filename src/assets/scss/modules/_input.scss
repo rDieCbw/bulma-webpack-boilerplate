@@ -1,0 +1,26 @@
+.input {
+    &__footer {
+        height: 50px;
+        border-radius: 0;
+        border-width: 2px;
+        border-right: none;
+        border-left: none;
+        min-width: 220px;
+
+        &::placeholder {
+            color: #9a9a9a;
+            opacity: 1;
+            font-size: 12px;
+        }
+
+        &:-ms-input-placeholder {
+            color: #9a9a9a;
+            font-size: 12px;
+        }
+
+        &::-ms-input-placeholder {
+            color: #9a9a9a;
+            font-size: 12px;
+        }
+    }
+}

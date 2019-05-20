@@ -1,0 +1,19 @@
+.houston-messenger{
+    &__content{
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+    &__image{
+        width: 38%
+    }
+}
+@media screen and (max-width: 1024px){
+    .houston-messenger{
+        &__content{
+            top: -24%;
+            left: 0;
+            right: 0;
+        }
+    }
+}

@@ -1,10 +1,43 @@
-.banner{
-    &__content{
+.banner {
+    &__content {
         top: 30%;
         left: 0;
         right: 0;
     }
-    &__button{
-        background: transparent;
+
+    &__title {
+        &--lined {
+            position: relative;
+
+            &::after {
+                content: '';
+                height: 2px;
+                width: 20%;
+                background: black;
+                position: absolute;
+                bottom: -20px;
+                left: 40%;
+                right: 0;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .banner {
+        &__content {
+            top: 20%;
+            left: 0;
+            right: 0;
+
+            &--business-casual {
+                top: 5%;
+            }
+
+            &--back-in-stock {
+                right: 3%;
+                top: 17%;
+            }
+        }
     }
 }

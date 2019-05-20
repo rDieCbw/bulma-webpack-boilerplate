@@ -1,0 +1,21 @@
+.button{
+    background: transparent;
+    border-radius: 0;
+    border-width: 2px;
+    &--dark-border{
+        border-color: black;
+    }
+    &--houston-messenger{
+        border-top: none;
+        border-bottom: none;
+    }
+    &--story{
+        border-right: none;
+    }
+    &--footer-addon{
+        border-left: none;
+        border-right: none;
+        min-height: 50px;
+    }
+
+}
