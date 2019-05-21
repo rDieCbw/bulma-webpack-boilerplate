@@ -21,6 +21,6 @@ mix.js("src/assets/js/app.js", "dist/assets/js/app.js")
 
 if(process.env.NODE_ENV.trim() === 'production'){
   mix.then(() => {
-    minifier.minify('dist/assets/css/app.css');
+    //minifier.minify('dist/assets/css/app.css');
   });
 }
